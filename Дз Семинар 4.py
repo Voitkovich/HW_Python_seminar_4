@@ -6,11 +6,9 @@
 # import math 
 # pi = print(math.pi)
 
-
 from math import pi
 d = int(input("Введите число для заданной точности числа Пи: "))
 print(f'число Пи с заданной точностью {d} равно {round(pi, d)}')
-
 
 
 # Задайте натуральное число N. Напишите программу, которая составит список простых множителей числа N.
@@ -39,10 +37,12 @@ print(my_list)
 # print(*new_lst)
 
 
-
 import numpy as N
 list_inp = input("Введите числа через пробел:\n").split() 
 res = N.array(list_inp)
 unique_res = N.unique(res) 
 print("Список неповторяющихся элементов с использованием библиотеки numpy.unique():\n")
 print(unique_res)
+
+# Нашла интересную библиотеку для работы с массивами. Не уверена что можно было так делать,
+# но я попробовала)
